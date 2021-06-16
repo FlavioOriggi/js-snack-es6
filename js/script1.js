@@ -1,5 +1,4 @@
-// Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso. 
-
+//* Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 var biciclette = [
     {
         nome : 'pinco',
@@ -15,8 +14,7 @@ var biciclette = [
     }
 ];
 
-// Stampare a schermo la bici con peso minore utilizzando destructuring e template literal
-
+//* Stampare a schermo la bici con peso minore utilizzando destructuring e template literal
 let pesoMin = biciclette[0];
 
 for (let i = 0;  i < biciclette.length; i++){
